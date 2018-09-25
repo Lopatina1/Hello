@@ -1,0 +1,6 @@
+ set(CMAKE_CXX_STANDARD 14)
+
+ add_executable(main main.cpp Hello.h Hello.cpp)
+\ No newline at end of file
+ add_executable(main main.cpp Hello.h Hello.cpp)
+ add_executable(tests tests.cpp Hello.h Hello.cpp)
